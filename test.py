@@ -65,7 +65,7 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=str, default='submission.json')
     parser.add_argument('--thickness', type=int, default=1)
     parser.add_argument('--max_channel', type=int, default=3)
-    parser.add_argument("--xbound", nargs=3, type=float, default=[-30.0, 30.0, 0.15])
+    parser.add_argument("--xbound", nargs=3, type=float, default=[-3.0, 30.0, 0.15])
     parser.add_argument("--ybound", nargs=3, type=float, default=[-15.0, 15.0, 0.15])
     parser.add_argument('--raster', action='store_true', default=False)
     args = parser.parse_args()
